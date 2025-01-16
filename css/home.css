@@ -1,0 +1,38 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1216px;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+  
+  .blog-post {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .post-header {
+    background-color: #cf0e0e;
+    color: #fff;
+    padding: 14px;
+    font-size: 20px;
+  }
+  
+  .post-meta {
+    padding: 12px;
+    font-size: 0.9em;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-content {
+    padding: 14px;
+    flex: 1;
+  }
